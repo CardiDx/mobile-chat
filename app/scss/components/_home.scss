@@ -2,3 +2,27 @@
 .wrapper {
   padding: 40px 0 0 0;
 }
+
+.user {
+  display: flex;
+  align-items: center;
+  //flex: 1 1 1;
+  &__photo {
+    width: 40px;
+    height: 40px;
+
+    background: var(--first-color);
+    border-radius: 50%;
+
+    text-align: center;
+    line-height: 40px;
+
+    margin-right: 16px;
+  }
+
+  &__name {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 18px;
+  }
+}
