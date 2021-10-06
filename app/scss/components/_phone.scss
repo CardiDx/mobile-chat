@@ -2,7 +2,8 @@
 .phone {
   max-width: 470px;
   width: 100%;
-  min-height: 90vh;
+  height: 800px;
+  //min-height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,13 +13,13 @@
   border-radius: 40px;
 
   &__container {
-    background: var(--body-color);
+    background: white;
     border-radius: 20px;
 
     padding: 20px 10px;
     margin: 0 auto;
 
-    height: 600px;
+    height: 92%;
     width: 92%;
 
   }
