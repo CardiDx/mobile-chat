@@ -13,62 +13,142 @@
 <div class="wrapper">
     <div class="phone">
         <div class="phone__container">
+            <div class="phone__notch"></div>
 
-            <header class="header">
+            <!--Header-->
+            <div class="head">
+                <div class="head__profilebox">
 
-                <button>
-                    <i class='bx bx-chevron-left'></i>
-                </button>
+                    <div class="profile">
+                        <button class="profile__button button button-icon">
+                            <i class='bx bx-chevron-left icon'></i>
+                        </button>
 
-                <div class="user">
-                    <div class="user__photo"><img src="img/user2.jpg" alt=""></div>
-                    <div class="user__name">Victor Josef</div>
-                </div>
-
-                <select name="select" class="">
-                    <option value="En" selected>English</option>
-                    <option value="Ru">Russian</option>
-                </select>
-
-            </header>
-
-
-            <div class="chat-tools">
-                <h1 class="chat-tools__title">Auto english transition</h1>
-
-                <div class="chat-tools__icons">
-                    <i class='bx bxs-phone'></i>
-                    <i class='bx bxs-video'></i>
-                </div>
-            </div>
-
-
-            <main>
-                <div class="chat">
-
-
-                    <div class="message-wrapper">
-
-                        <div class="user-wrapper">
-                            <div class="user">
-                                <div class="user__photo"><img src="img/user2.jpg" alt=""></div>
-                            </div>
+                        <div class="profile__user user">
+                            <div class="user__photo"><img src="img/user2.jpg" alt=""></div>
+                            <div class="user__name">Victor Josef</div>
                         </div>
-
-                        <div class="user-messages">
-                            <div class="message">Hi Victor! I'm Jacob Jones</div>
-
-                            <div class="message message_small">Urdu to English</div>
-
-                            <div class="message">Hi Victor! I'm Jacob Jones</div>
-                        </div>
-
                     </div>
 
-
-                    <div class="message message__reply">Hello Jacob! I know you</div>
+                    <select name="select" class="">
+                        <option value="En" selected>English</option>
+                        <option value="Ru">Russian</option>
+                    </select>
                 </div>
-            </main>
+                <div class="chat-tools">
+                    <h1 class="chat-tools__title">Auto english transition</h1>
+
+                    <div class="chat-tools__icons">
+                        <i class='chat-tools__icon bx bxs-phone'></i>
+                        <i class='chat-tools__icon bx bxs-video'></i>
+                    </div>
+                </div>
+
+            </div>
+            <!--Chat-->
+            <div class="chat">
+
+                <div class="message-wrapper">
+                    <div class="user-wrapper">
+                        <div class="user">
+                            <div class="user__photo"><img src="img/user2.jpg" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="user-messages">
+                        <div class="message">Hi Victor! I'm Jacob Jones</div>
+                        <div class="message message_small">Urdu to English</div>
+                    </div>
+
+                </div>
+
+                <div class="message-wrapper message-wrapper_margin-left">
+                    <div class="message message__reply">Hello Jacob, I know you.</div>
+                </div>
+
+                <div class="message-wrapper">
+                    <div class="user-wrapper">
+                        <div class="user">
+                            <div class="user__photo"><img src="img/user2.jpg" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="user-messages">
+                        <div class="message">We talked about a project on Linkedin</div>
+                    </div>
+
+                </div>
+
+                <div class="message-wrapper message-wrapper_margin-left">
+                    <div class="message message__reply">Yeah, I have some questions</div>
+                </div>
+
+                <div class="message-wrapper">
+                    <div class="user-wrapper">
+                        <div class="user">
+                            <div class="user__photo"><img src="img/user2.jpg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="user-messages">
+                        <div class="message">Sure, you can ask me.</div>
+                    </div>
+
+                </div>
+
+
+                <div class="message-wrapper message-wrapper_margin-left">
+                    <div class="message message__reply">Are you happy to use this app?</div>
+                </div>
+
+                <div class="message-wrapper message-wrapper_margin-left">
+                    <div class="message message__reply message__emoji">😄</div>
+                    <div class="message message_small">Seen</div>
+                </div>
+
+                <div class="message-wrapper">
+                    <div class="user-wrapper">
+                        <div class="user">
+                            <div class="user__photo"><img src="img/user2.jpg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="user-messages">
+                        <div class="message">Goodbye.</div>
+                    </div>
+
+                </div>
+
+                <div class="message-wrapper message-wrapper_margin-left">
+                    <div class="message message__reply">I want to work in 12DEVS :)</div>
+                    <i class='bx bx-check-circle'></i>
+
+                </div>
+
+            </div>
+            <!--Send Message-->
+            <div class="sendbox">
+                <div class="sendbox__wrapper">
+
+                    <div class="input-icon">
+                        <i class='bx bx-smile icon'></i>
+                    </div>
+
+                    <label for="enterMessage">
+                        <input class="input" id="enterMessage" type="text" value="" placeholder="Type a message"
+                               autocomplete="off">
+                    </label>
+
+                    <div class="input-icon input-icon_right">
+                        <i class='bx bx-camera icon'></i>
+                    </div>
+
+                    <div class="sendbox__heart ">
+                        <i class='bx bx-heart icon'></i>
+                    </div>
+
+                </div>
+
+
+            </div>
 
         </div>
     </div>

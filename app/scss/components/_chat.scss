@@ -1,0 +1,11 @@
+/*=============== chat ===============*/
+.chat{
+    display: flex;
+    flex-direction: column;
+
+    height: auto;
+    min-height: calc(100% - 30%);
+    max-height: calc(100% - 30%);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

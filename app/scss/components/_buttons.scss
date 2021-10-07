@@ -1,33 +1,15 @@
 /*=============== BUTTONS ===============*/
 .button{
-    display: inline-block;
-    background-color: var(--first-color);
-    color: var(--title-color);
-    padding: 1rem 1.75rem;
-    border-radius: .5rem;
+    width: 48px;
+    height: 48px;
+    line-height: 50%;
+    font-size: 24px;
+    border-radius: 999px;
     font-weight: var(--font-medium);
     transition: .3s;
+    background: transparent;
 
     &:hover{
-        background-color: var(--first-color-alt);
-    }
-
-    &--ghost{
-        border: 2px solid;
-        background-color: transparent;
-        border-radius: 3rem;
-        padding: .75rem 1.5rem;
-
-        &:hover{
-            background: none;
-        }
-    }
-    &--link{
-        color: var(--title-color);
-    }
-    &--flex{
-        display: inline-flex;
-        align-items: center;
-        column-gap: .5rem;
+        background-color: var(--body-color);
     }
 }
