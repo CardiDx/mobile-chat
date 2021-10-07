@@ -1,0 +1,27 @@
+/*=============== user ===============*/
+.user {
+  display: flex;
+  align-items: center;
+  padding: 0.625rem 0;
+
+  &__photo {
+    width: 2.5rem;
+    height: 2.5rem;
+
+    overflow: hidden;
+
+    background: var(--first-color);
+    border-radius: 50%;
+
+    text-align: center;
+    line-height: 2.5rem;
+
+    margin-right: 1rem;
+  }
+
+  &__name {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.125rem;
+  }
+}

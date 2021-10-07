@@ -1,7 +1,13 @@
 /*=============== sendbox ===============*/
 .sendbox {
   width: 100%;
-  padding: 1rem 0;
+  padding: 1rem;
+  position: absolute;
+  background: white;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 5;
 }
 
 .sendbox__wrapper {
@@ -9,17 +15,14 @@
 }
 
 .input {
-  padding: 16px;
-  padding-left: 3.25rem;
-  padding-right: 3.25rem;
+  width: calc(100% - 60px);
+  padding: 1rem 3.25rem;
 
   background: var(--secondary-color);
-  border-radius: 30px;
+  border-radius: 2.14rem;
 
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  //float: left;
-  width: calc(100% - 60px);
 
   &::placeholder {
     font-weight: 500;
@@ -27,11 +30,11 @@
 }
 
 .input-icon {
-  font-size: 24px;
+  font-size: 1.8rem;
   position: absolute;
   top: 55%;
   transform: translateY(-50%);
-  padding-left: 16px;
+  padding-left: 1rem;
   cursor: pointer;
 }
 
@@ -41,19 +44,19 @@
 
 
 .sendbox__heart {
-  font-size: 24px;
+  font-size: 1.8rem;
   float: right;
 
   border: none;
 
-  width: 48px;
-  height: 48px;
+  width: 3.4286rem;
+  height: 3.4286rem;
 
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  border-radius: 99px;
+  border-radius: 7rem;
 
   &:hover {
     background: var(--body-color);

@@ -5,6 +5,8 @@
   border-bottom: 2px solid var(--secondary-color);
   display: flex;
   flex-direction: column;
+
+  padding: 0 1rem;
 }
 
 .head__profilebox {
@@ -26,7 +28,7 @@
 }
 
 .profile__button {
-  margin-right: 16px;
+  margin-right: 1rem;
 }
 
 .profile__user {
@@ -35,18 +37,18 @@
 
 /*=============== Tools ===============*/
 .chat-tools {
-  padding: 16px 0;
+  padding: 1rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .chat-tools__icons {
-  font-size: 32px;
+  font-size: 2.2rem;
   color: var(--first-color);
 }
 .chat-tools__icon{
-  padding: 4px;
+  padding: 0.28rem;
   cursor: pointer;
   &:hover{
     color: #3e48b9;
