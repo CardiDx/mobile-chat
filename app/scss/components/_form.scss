@@ -8,6 +8,8 @@
   left: 0;
   bottom: 0;
   z-index: 5;
+
+  box-shadow: 0 0 40px #00000030;
 }
 
 .sendbox__wrapper {
@@ -15,8 +17,10 @@
 }
 
 .input {
+  //height: 400px;
+
   width: calc(100% - 60px);
-  padding: 1rem 3.25rem;
+  padding: 1rem 4.25rem 1rem 3.25rem;
 
   background: var(--secondary-color);
   border-radius: 2.14rem;
@@ -30,12 +34,15 @@
 }
 
 .input-icon {
+  //width: 25px;
+  height: 30px;
   font-size: 1.8rem;
   position: absolute;
-  top: 55%;
+  bottom: -5px;
   transform: translateY(-50%);
   padding-left: 1rem;
   cursor: pointer;
+
 }
 
 .input-icon_right {
@@ -45,7 +52,7 @@
 
 .sendbox__heart {
   font-size: 1.8rem;
-  float: right;
+  //float: right;
 
   border: none;
 
@@ -57,6 +64,10 @@
   align-items: center;
   cursor: pointer;
   border-radius: 7rem;
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
 
   &:hover {
     background: var(--body-color);
